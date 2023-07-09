@@ -1,0 +1,373 @@
+:root{
+    --div-desc:#1e3932;
+    --green:#00754a;
+    --bg-pink:#eb81a5;
+    --bg-light-green:#d4e9e2;
+    --bg-blue:#8f8bf4;
+    --bg-green:#cbe678;
+    --bg-gray:#e1fccd;
+    --black:#000;
+    --white:#fff;
+    --footer-end:#797979;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+}
+
+/*navbarsection start*/
+nav{
+    width: 100%;
+    height: 99px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+nav > div>  ul >li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.navbar-left{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-left > ul > li> a:hover{
+    color: #00754a;
+}
+
+.navbar-right > ul{
+    margin-top: -5px;
+}
+
+.navbar-right > ul >li:last-child {
+    margin-right: 40px;
+}
+
+.btn-1{
+    padding: 5px 15px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 20px;
+}
+
+.btn-2{
+    padding: 5px 15px;
+    background-color: var(--black);
+    border-radius: 20px;
+}
+
+.btn-2>a{
+    color: var(--white);
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 550;
+}
+/*navbarsection end*/
+
+/*mainsection start*/
+main{
+    margin-top: 35px;
+    width: 100%;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+}
+/*mainsection end*/
+
+img{
+    height: 100%;
+    width: 100%;   
+ }
+
+/*section1 start*/
+
+.sec-1{
+    width: 100%;
+    height: 580px;
+    background-color: var(--bg-pink);
+    display: flex;
+    flex-direction: row;
+}
+
+.article-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: var(--div-desc);
+}
+
+.article-1 > div > h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.article-1 > div > p{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.article-1 > div > a{
+    color: var(--div-desc);
+    padding: 7px 20px;
+    font-size: 16px;
+    display: block;
+}
+
+.article-1 > .link{
+    border: 1px solid var(--div-desc);
+    border-radius: 20px;
+}
+
+.article-2{
+    margin-left: 0;
+}
+
+.article-1 , .article-2{
+    flex: 1;
+}
+
+/*section1 end*/
+
+/*section2 start*/
+
+.sec-2{
+    width: 100%;
+    height: 257px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-light-green) ;
+}
+
+.article-4{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: var(--div-desc);
+}
+
+.article-4 > div > h1{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.article-4 > div > p{
+    font-size: 19px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.article-4 > div > a{
+    color: var(--div-desc);
+    padding: 7px 20px;
+    font-size: 16px;
+    display: block;
+}
+
+.article-4 > .link{
+    border: 1px solid var(--div-desc);
+    border-radius: 20px;
+}
+
+.article-3 , .article-4{
+    flex: 1;
+}
+
+/*section2 end*/
+
+/*section3 start*/
+
+.sec-3{
+    width: 100%;
+    height: 476px;
+    display: flex;
+    flex-direction: row;   
+    background-color: var(--bg-blue);
+}
+
+.article-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: var(--black);
+}
+
+.article-5 > div > h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.article-5 > div > p{
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.article-5 > div > a{
+    color: var(--black);
+    padding: 7px 20px;
+    font-size: 14px;
+    display: block;
+}
+
+.article-5 > .link{
+    border: 1px solid var(--div-desc);
+    border-radius: 20px;
+}
+
+.article-5 , .article-6{
+    flex: 1;
+}
+
+/*section3 end*/
+
+/*section4 start*/
+
+.sec-4{
+    width: 100%;
+    height: 476px;
+    display: flex;
+    flex-direction: row;   
+    background-color: var(--bg-green);
+}
+
+.article-8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: var(--div-desc);
+}
+
+.article-8 > div > h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.article-8 > div > p{
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.article-8 > div > a{
+    color: var(--black);
+    padding: 7px 20px;
+    font-size: 14px;
+    display: block;
+}
+
+.article-8 > .link{
+    border: 1px solid var(--div-desc);
+    border-radius: 20px;
+}
+
+.article-7 , .article-8{
+    flex: 1;
+}
+
+/*section4 end*/
+
+/*section5 start*/
+
+.sec-5{
+    width: 100%;
+    height: 476px;
+    display: flex;
+    flex-direction: row;   
+    background-color: var(--bg-gray);
+}
+
+.article-9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: var(--div-desc);
+}
+
+.article-9 > div > h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.article-9 > div > p{
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.article-9 > div > a{
+    color: var(--div-desc);
+    padding: 7px 20px;
+    font-size: 14px;
+    display: block;
+}
+
+.article-9 > .link{
+    border: 1px solid var(--div-desc);
+    border-radius: 20px;
+}
+
+.article-9 , .article-10{
+    flex: 1;
+}
+/*section5 end*/
+
+/*footersection start*/
+
+footer{
+    margin-top: 20px;
+    background-color: #dddbdb00;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+    border-top: 1px solid var(--bg-light-green);
+}
+
+.foot-1 ul,
+.foot-2 ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.foot-1 li,
+.foot-2 li {
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+.foot-2{
+    margin-top: 20px;
+    color: #252122;
+    font-size: 13px;
+}
+
+.foot-3 {
+    color: var(--footer-end);
+    margin-top: 20px;
+}
+/*footersection end*/
